@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    $nome = "filipe";
+    $nome = "joão";
     return view('Welcome', ['nome' => $nome]);
 });
 

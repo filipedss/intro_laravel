@@ -61,10 +61,12 @@
     </style>
   </head>
   <body>
-      <h1>Algum título</h1>
-      @if(10>5)
-        <p>A condição é verdadeira</p>
-      @endif
-      <h1>{{$nome}}</h1>
+    <h1>intro_laravel</h1>
+
+    @if($nome === "filipe")
+      <p>Olá, me chamo filipe</p>
+    @else
+      <p>Não me chamo filipe, me chamo {{$nome}}</p>
+    @endif
   </body>
 </html>
